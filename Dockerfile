@@ -12,4 +12,4 @@ RUN swift build
 
 # TODO: VOLUME for logs
 
-CMD [".build/debug/SwiftThreeServer"]
+CMD [".build/debug/SwiftServerBoilerplate"]

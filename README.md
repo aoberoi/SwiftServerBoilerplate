@@ -1,8 +1,8 @@
-# Swift 3 Server
+# Swift Server Boilerplate
 
-An example application written in Swift 3, built using Swift Package Manager, and running in a
+An example application written in Swift, built using Swift Package Manager, and running in a
 Linux (Ubuntu) environment. It is also meant to be deployed as a Docker container. Basically,
-its an example project to get started writing a server process in Swift.
+its an boilerplate project to get started writing a server in Swift.
 
 ## Run the application
 
@@ -15,13 +15,13 @@ You run the application in a Docker container (recommended) or directly on your 
 Build the Docker image:
 
 ```
-docker build -t username/swiftthreeserver .
+docker build -t username/appname .
 ```
 
 Run the built image:
 
 ```
-docker run username/swiftthreeserver
+docker run username/appname
 ```
 
 ### Directly on your system
@@ -38,5 +38,5 @@ swift build
 Run the built application:
 
 ```
-.build/debug/SwiftThreeServer
+.build/debug/SwiftServerBoilerplate
 ```
